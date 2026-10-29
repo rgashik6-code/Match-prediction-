@@ -1,0 +1,6 @@
+{
+  "name": "GoalPredict",
+  "description": "স্মার্ট ফুটবল প্রেডিকশন এবং ম্যাচ অ্যানালাইসিস প্ল্যাটফর্ম। ম্যাচ উইনার, মোট গোল, কর্নার এবং কার্ড প্রেডিকশন।",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
