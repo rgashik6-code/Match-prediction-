@@ -1,6 +1,6 @@
 import React from 'react';
-import { useFootball } from '../context/FootballContext';
-import { t } from '../utils/translations';
+import { useFootball } from './FootballContext';
+import { t } from './utils/translations';
 import { X, Crown, Check, Sparkles, MessageCircle, Send, ShieldCheck, Zap } from 'lucide-react';
 import confetti from 'canvas-confetti';
 
