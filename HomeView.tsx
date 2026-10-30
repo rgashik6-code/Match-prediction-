@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import { useFootball } from '../context/FootballContext';
-import { MatchCard } from '../components/MatchCard';
-import { t } from '../utils/translations';
-import { DEMO_ACCURACY_STATS } from '../data/initialMatches';
+import { useFootball } from './FootballContext';
+import { MatchCard } from './MatchCard';
+import { t } from './translations';
+import { DEMO_ACCURACY_STATS } from './initialMatches';
 import {
   Flame,
   TrendingUp,
