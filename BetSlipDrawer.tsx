@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useFootball } from '../context/FootballContext';
+import { useFootball } from "./FootballContext";
 import { t } from '../utils/translations';
 import { X, Trash2, Ticket, TrendingUp, Check, Copy, Sparkles } from 'lucide-react';
 import confetti from 'canvas-confetti';
