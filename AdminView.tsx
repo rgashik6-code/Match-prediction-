@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { useFootball } from '../context/FootballContext';
-import { MatchPrediction, MatchStatus, OutcomeStatus } from '../types/football';
+import { useFootball } from './FootballContext';
+import { MatchPrediction, MatchStatus, OutcomeStatus } from './football';
 import { t } from '../utils/translations';
 import {
   ShieldAlert,
