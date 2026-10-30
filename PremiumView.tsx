@@ -1,6 +1,6 @@
 import React from 'react';
 import { useFootball } from './FootballContext';
-import { MatchCard } from '../components/MatchCard';
+import { MatchCard } from "./MatchCard";
 import { t } from '../utils/translations';
 import {
   Crown,
