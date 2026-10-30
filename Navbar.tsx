@@ -1,5 +1,5 @@
 import React from 'react';
-import { useFootball } from '../context/FootballContext';
+import { useFootball } from './FootballContext';
 import { t } from '../utils/translations';
 import { Flame, Ticket, Download, Crown, Sparkles, Globe } from 'lucide-react';
 
