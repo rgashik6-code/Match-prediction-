@@ -1,17 +1,19 @@
 import React from 'react';
-import { FootballProvider, useFootball } from './context/FootballContext';
-import { Navbar } from './components/Navbar';
-import { BottomNav } from './components/BottomNav';
-import { HomeView } from './views/HomeView';
-import { MatchesView } from './views/MatchesView';
-import { FreePredictionsView } from './views/FreePredictionsView';
-import { PremiumView } from './views/PremiumView';
-import { AdminView } from './views/AdminView';
-import { MatchDetailModal } from './components/MatchDetailModal';
-import { BetSlipDrawer } from './components/BetSlipDrawer';
-import { VipPlanModal } from './components/VipPlanModal';
-import { ExportCodeModal } from './components/ExportCodeModal';
-import { ShieldCheck, Smartphone, Code2, Flame, Heart } from 'lucide-react';
+
+import { FootballProvider, useFootball } from './FootballContext';
+import { Navbar } from './Navbar';
+import { BottomNav } from './BottomNav';
+
+import { HomeView } from './HomeView';
+import { FreePredictionsView } from './FreePredictionsView';
+import { PremiumView } from './PremiumView';
+import { AdminView } from './AdminView';
+
+import { BetSlipDrawer } from './BetSlipDrawer';
+import { VipPlanModal } from './VipPlanModal';
+import { ExportCodeModal } from './ExportCodeModal';
+
+import { ShieldCheck, Smartphone, Code2 } from 'lucide-react';
 
 const AppContent: React.FC = () => {
   const { activeTab, language, setIsExportModalOpen } = useFootball();
