@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { useFootball } from '../context/FootballContext';
+import { useFootball } from './FootballContext';
+import { MatchCard } from './MatchCard';
 import { MatchCard } from '../components/MatchCard';
 import { t } from '../utils/translations';
 import {
