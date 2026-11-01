@@ -1,6 +1,5 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
 import { INITIAL_MATCHES } from "./initialMatches";
-import { INITIAL_MATCHES } from '../data/initialMatches';
 
 export type NavTab = 'home' | 'matches' | 'free' | 'premium' | 'admin';
 
