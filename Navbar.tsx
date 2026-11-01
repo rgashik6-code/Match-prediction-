@@ -1,6 +1,6 @@
 import React from 'react';
 import { useFootball } from './FootballContext';
-import { t } from '../utils/translations';
+import { t } from './utils/translations';
 import { Flame, Ticket, Download, Crown, Sparkles, Globe } from 'lucide-react';
 
 export const Navbar: React.FC = () => {
