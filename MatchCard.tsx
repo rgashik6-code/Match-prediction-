@@ -1,7 +1,6 @@
 import React from 'react';
 import { useFootball } from "./FootballContext";
 import { t } from './utils/translations';
-import { t } from '../utils/translations';
 import { Flame, Crown, Clock, CheckCircle2, XCircle, AlertCircle, TrendingUp, Shield, BarChart3, Plus, Check } from 'lucide-react';
 
 interface MatchCardProps {
