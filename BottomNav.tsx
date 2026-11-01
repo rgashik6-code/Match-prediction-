@@ -1,5 +1,5 @@
 import React from 'react';
-import { useFootball, NavTab } from '../context/FootballContext';
+import { useFootball } from './FootballContext';
 import { t } from '../utils/translations';
 import { Home, Trophy, CheckCircle2, Crown, ShieldAlert, Download } from 'lucide-react';
 
