@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useFootball } from './FootballContext';
 import { MatchCard } from './MatchCard';
-import { t } from './translations';
+import { t } from './utils/translations';
 import { DEMO_ACCURACY_STATS } from './initialMatches';
 import {
   Flame,
