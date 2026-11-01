@@ -1,5 +1,5 @@
 import React from 'react';
-import { MatchPrediction } from '../types/football';
+import { useFootball } from "./FootballContext";
 import { useFootball } from '../context/FootballContext';
 import { t } from '../utils/translations';
 import { Flame, Crown, Clock, CheckCircle2, XCircle, AlertCircle, TrendingUp, Shield, BarChart3, Plus, Check } from 'lucide-react';
