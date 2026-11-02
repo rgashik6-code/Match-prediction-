@@ -74,7 +74,6 @@ const AppContent: React.FC = () => {
       <BottomNav />
 
       {/* Popups & Drawers */}
-      <MatchDetailModal />
       <BetSlipDrawer />
       <VipPlanModal />
       <ExportCodeModal />
